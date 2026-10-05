@@ -45,6 +45,14 @@ public interface DishMapper {
     Dish getById(Long id);
 
     /**
+     * 根据分类id和状态查询菜品
+     * @param dish
+     * @return
+     */
+    @Select("select * from dish where category_id = #{categoryId} and status = #{status}")
+    List<Dish> list(Dish dish);
+
+    /**
      * 根据主键删除菜品
      * @param id
      */
