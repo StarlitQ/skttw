@@ -1,0 +1,17 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: REPLACE_ME
+    port: 3306
+    database: sky_take_out
+    username: REPLACE_ME
+    password: REPLACE_ME
+  alioss:
+    endpoint: REPLACE_ME
+    access-key-id: REPLACE_ME
+    access-key-secret: REPLACE_ME
+    bucket-name: REPLACE_ME
+  redis:
+    host: REPLACE_ME
+    port: 6379
+    database: 0

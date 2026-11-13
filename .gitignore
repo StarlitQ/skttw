@@ -1,6 +1,27 @@
+# Java / IDE
 **/target/
-.idea
-*.iml
 *.class
-*Test.java
-**/test/
+*.iml
+.idea/
+.vscode/
+# Frontend dependencies and generated output
+**/node_modules/
+**/dist/
+**/.cache/
+**/unpackage/
+**/coverage/
+**/.DS_Store
+**/.VSCodeCounter/
+# Machine-specific configuration
+sky-server/src/main/resources/application-dev.yml
+**/.env.local
+**/.env.*.local
+**/project.private.config.json
+# Runtime files
+*.log
+*.pid
+frontend/admin-preview-nginx/nginx.exe
+frontend/admin-preview-nginx/logs/*
+!frontend/admin-preview-nginx/logs/.gitkeep
+frontend/admin-preview-nginx/temp/*
+!frontend/admin-preview-nginx/temp/.gitkeep
