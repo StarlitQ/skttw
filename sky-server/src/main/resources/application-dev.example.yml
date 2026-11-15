@@ -15,3 +15,9 @@ sky:
     host: REPLACE_ME
     port: 6379
     database: 0
+  jwt:
+    admin-secret-key: REPLACE_ME
+    user-secret-key: REPLACE_ME
+  wechat:
+    appid: REPLACE_ME
+    secret: REPLACE_ME
